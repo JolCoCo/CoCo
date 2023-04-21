@@ -1,4 +1,6 @@
-## Our Story
+---
+title:  "Our Story"
+---
 
 The logo of CoCo is derived from the meaning of "smiling face" in Spanish.
 
