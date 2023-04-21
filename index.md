@@ -1,9 +1,5 @@
 ---
-title:  "Our Story"
+title:  "CoCo Fresh Tea & Juice"
 ---
 
-The logo of CoCo is derived from the meaning of "smiling face" in Spanish.
-
-CoCo Fresh Tea & Juice is founded in 1997 by Chairman, Tommy Hung. The first step started from a humble town called Tamsui in Taiwan. Within this industry for more than 20 years, CoCo has now launched over 5,000 stores worldwide.
-
-CoCo Fresh Tea & Juice always aims to provide a wide variety of bubble tea selections and healthy fruit tea options. We source for the best seasonal fruits and ingredients globally and maintain quality consistency ranging from fresh tea, milk tea, fresh fruit, yogurt and more. CoCo is also dedicated to recreating tea drinking experience, introducing new drinks to the market.
+![img1](https://images.squarespace-cdn.com/content/v1/5edfb8e7559cd9129deae815/4798dad1-4616-4595-820e-f665d625d319/Grape+Series+2023+TV..-01.jpg?format=1500w)
