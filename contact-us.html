@@ -21,6 +21,15 @@
     <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+        
+        .phone-label {
+  display: inline-block;
+}
+
+.phone-number {
+  display: inline-block;
+}
+        
         .bd-placeholder-img {
             font-size: 1.125rem;
             text-anchor: middle;
@@ -165,10 +174,10 @@
             <div class="row featurette">
                 <div class="col-md-7">
                     <h2 class="featurette-heading fw-normal lh-1">Please feel free to contact us if you have any advice, or are interested in cooperations.</h2>
-                    <h4 class="fw-normal lh-1"><span class="text-body-secondary">☎️CoCo Broadway <a href="tel:+61 412 891 165">0412 891 165</a></span></h4>
-                    <h4 class="fw-normal lh-1"><span class="text-body-secondary">☎️CoCo Macquarie <a href="tel:+61 412 891 165">0412 891 165</a></span></h4>
-                    <h4 class="fw-normal lh-1"><span class="text-body-secondary">☎️CoCo Lidcombe <a href="tel:+61 435 888 089">0435 888 089</a></span></h4>
-                    <h4 class="fw-normal lh-1"><span class="text-body-secondary">Email: <a href="mailto:Everstoneinvestment@outlook.com">Everstoneinvestment@outlook.com</a></span></h4>
+                    <h4 class="fw-normal lh-1"><span class="text-body-secondary phone-label">☎️CoCo Broadway</span><a href="tel:+61 412 891 165" class="phone-number">0412 891 165</a></h4>
+                    <h4 class="fw-normal lh-1"><span class="text-body-secondary phone-label">☎️CoCo Macquarie</span><a href="tel:+61 412 891 165" class="phone-number">0412 891 165</a></h4>
+                    <h4 class="fw-normal lh-1"><span class="text-body-secondary phone-label">☎️CoCo Lidcombe</span><a href="tel:+61 435 888 089" class="phone-number">0435 888 089</a></h4>
+                    <h4 class="fw-normal lh-1"><span class="text-body-secondary phone-label">Email</span><a href="mailto:Everstoneinvestment@outlook.com" class="phone-number">Everstoneinvestment@outlook.com</a></h4>
                     <!-- <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p> -->
                 </div>
                 <div class="col-md-5">
@@ -194,6 +203,29 @@
 
     <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
 
+    <script>
+  function setWidestWidth(elements) {
+    let maxWidth = 0;
+
+    // Find the widest element
+    elements.forEach((element) => {
+      const width = element.offsetWidth;
+      if (width > maxWidth) {
+        maxWidth = width;
+      }
+    });
+
+    // Set the width for all elements
+    elements.forEach((element) => {
+      element.style.width = maxWidth + 'px';
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const phoneLabels = document.querySelectorAll('.phone-label');
+    setWidestWidth(phoneLabels);
+  });
+</script>
 
 </body>
 
